@@ -2,11 +2,27 @@
 <html>
 <head>
 	<title>TODO List</title>
-	<link rel="stylesheet" type="text/css" href="assets/assets/css/todosStyling">
+	<link rel="stylesheet" type="text/css" href="assets/css/todosStyling.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" 
+		  href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+		  integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" 
+		  crossorigin="anonymous">
 	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+	<div id="container">
+		<h1>To-Do List <i class="fas fa-plus"></i></h1>
+		<input type="text" placeholder="Add New Todo">
+		<ul id="todoList">
+			<li><span><i class="fa fa-trash"></i></span>Go to potions class</li>
+			<li><span><i class="fa fa-trash"></i></span>buy wand</li>
+			<li><span><i class="fa fa-trash"></i></span>Visit Hargrid</li>
+		</ul>
 
-<script type="text/javascript" src="todosBackground"></script>
+
+	</div>
+
+<script type="text/javascript" src="assets/js/todosBackground.js"></script>
 </body>
 </html>
